@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "study_goframe/api/pb_hello/v1";
+
+message HelloReq {
+  string Name = 1;
+}
+
+message HelloRes {
+  string Reply = 1;
+}

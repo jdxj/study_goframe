@@ -17,3 +17,8 @@ temp/
 temp.yaml
 bin
 **/config/config.yaml
+*.out
+
+# lockgit
+manifest/config/config.yaml
+hack/config.yaml

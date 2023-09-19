@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option go_package = "study_goframe/api/user/v1";
+
+service H{
+  rpc HH(Hello) returns(Hello);
+}
+
+message Hello {
+  string name = 1;
+}

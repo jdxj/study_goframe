@@ -1,0 +1,17 @@
+// ==========================================================================
+// Code generated and maintained by GoFrame CLI tool. DO NOT EDIT.
+// ==========================================================================
+
+syntax = "proto3";
+
+package pbentity;
+
+option go_package = "study_goframe/api/pbentity";
+
+
+
+message User {
+    int64  Id       = 1   ; //   
+    string Name     = 2   ; //   
+    string Password = 3   ; //   
+}
